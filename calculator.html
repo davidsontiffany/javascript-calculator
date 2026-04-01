@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany's Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    
+</head>
+
+<body>
+    <h1>Let's Calculate</h1>
+    <!-- Calculator -->
+    <div class="calculator">  
+        <!-- Display -->
+    <div id="display">0</div>
+<!-- Buttons -->
+    <div class="buttons">
+
+         <!-- Row 1 -->
+        <button onclick="handleInput('1')">1</button>
+        <button onclick="handleInput('2')">2</button>
+        <button onclick="handleInput('3')">3</button>
+
+        <!-- Row 2 -->
+        <button onclick="handleInput('4')">4</button>
+        <button onclick="handleInput('5')">5</button>
+        <button onclick="handleInput('6')">6</button>
+
+        <!-- Row 3 -->
+        <button onclick="handleInput('7')">7</button>
+        <button onclick="handleInput('8')">8</button>
+        <button onclick="handleInput('9')">9</button>
+        
+        <!-- Row 4 -->
+        <button onclick="handleInput('0')">0</button>
+        <button onclick="handleInput('.')">.</button>
+        <button onclick="handleInput('reset')">
+  <i class="fa-solid fa-trash"></i>
+</button>
+        
+
+        <!-- Row 5 -->
+        <button onclick="handleInput('-')"><i class="fa-solid fa-circle-minus"></i></button>
+        <button onclick="handleInput('*')"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+        <button onclick="handleInput('/')"><i class="fa-solid fa-divide"></i></button>
+
+        <!-- Row 6 -->
+        <button onclick="handleInput('+')"><i class="fa-solid fa-plus"></i></button>
+        <button onclick="handleInput('=')"><i class="fa-solid fa-equals"></i></button>
+        
+        <button onclick="handleInput('del')"><i class="fa-sharp fa-solid fa-delete-left"></i></button>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6f476ff8a6.js" crossorigin="anonymous"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
